@@ -46,6 +46,7 @@ library(dplyr)
 
 
 # Abrindo e tendo as primeiras impressões dos dados
+# Opening and getting first impressions of data
 dfHR <- read.csv("data/HR_comma_sep.csv",header = TRUE, sep=",")
 dim(dfHR)
 head(dfHR)

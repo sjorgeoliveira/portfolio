@@ -1,3 +1,5 @@
+
+```{r }
 # Desafio de Negócio
 # Business Challenge
 
@@ -46,6 +48,7 @@ library(dplyr)
 
 
 # Abrindo e tendo as primeiras impressões dos dados
+# Opening and getting first impressions of data
 dfHR <- read.csv("data/HR_comma_sep.csv",header = TRUE, sep=",")
 dim(dfHR)
 head(dfHR)
@@ -281,3 +284,13 @@ plot.roc.curve(previsoes_finais, title.text = "Final Model ROC Curve")
 # Based on this model, the HR department can receive a quarterly, employee exit trend report with 97% probability of occurring based on company history.
 # With this in hand, the HR department can seek with the managers of the respective departments actions to keep employees in the company.
 # A proactive action plan, saves a lot of resources for the company and keeps it in its productivity.
+```
+
+
+
+---
+title: Hr_Analytics_Job.R
+author: sandr
+date: '2021-09-20'
+
+---
